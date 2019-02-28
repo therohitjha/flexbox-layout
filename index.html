@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+html,body{
+    background-color: #eee;
+    height: 100%;
+    font-family: 'Helvetica';
+}
+
+.container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+.content-area{
+    display: flex;
+    margin-bottom: auto;
+}
+
+main{
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+
+header,footer{
+    background-color: teal;
+}
+
+
+header{
+    padding: 2em;
+    letter-spacing: .5em;
+    font-size: 1em;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 1em;
+    font-size: 1em;
+}
+
+main{
+    width: 65%;
+}
+
+aside{
+    width: 35%;
+}
+
+
+@media (max-width: 700px){
+
+.content-area{
+    display: block;
+}
+
+main{
+    width: 100%;
+}
+aside{
+    width: 100%;
+}
+}
+
+nav{
+    width: 100%;
+    background-color: #aaa;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none; 
+    text-align: center; 
+}
+
+
+.list{
+    padding: 1em;
+    flex: 1;
+}
+
+.list:hover{
+    background-color: rgb(129, 124, 124);
+    transition: all .5s;
+}
+
+
+
+
+
+
+</style>
+
+
+
+<body>
+    <div class="container">
+<header>
+    <h1>therohitjha</h1>
+</header>
+<nav>
+
+<ul>
+
+    <li class="list"><a href=""></a>Home</li>
+    <li class="list"><a href=""></a>Contact</li>
+
+    <li class="list"><a href=""></a>About</li>
+
+    <li class="list"><a href=""></a>Privacy</li>
+
+</ul>
+
+</nav>
+
+
+<div class="content-area">
+<main>
+
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati culpa, maiores harum incidunt neque impedit libero similique praesentium quaerat vero voluptatibus nihil eius, commodi cum, eveniet porro exercitationem maxime veritatis.
+</main>
+<aside>
+
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque modi ducimus consectetur doloremque labore esse amet vitae porro ab praesentium nobis excepturi quisquam sed, ratione vel deleniti fuga illo dolorem?
+</aside>
+
+</div>
+<footer><p>&copy; therohitjha 2019</p></footer>
+    </div>
+</body>
+</html>
